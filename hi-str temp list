@@ -1,0 +1,673 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyP5xOY4GRKVb3iQWadkYmF/",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/logkong/Step-by-step/blob/main/hi-str%20temp%20list\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ChNMsNXc0Ljo",
+        "outputId": "2977a7c7-cf4e-41da-bba4-9391c88aae14"
+      },
+      "source": [
+        "print(\"hi\")"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "hi\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-cSRih3v1HbN",
+        "outputId": "a242cb65-69b3-4f83-ad29-40ff4a952dc8"
+      },
+      "source": [
+        "test = \"hi\"\n",
+        "print(test)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "hi\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "eYICLAZSf2VK",
+        "outputId": "012fb7b0-1969-487e-d35f-f8f05de802ce"
+      },
+      "source": [
+        "\"By chance or nature's changing course untrimm'd;\""
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            },
+            "text/plain": [
+              "\"By chance or nature's changing course untrimm'd;\""
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 38
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "-svUk2wNgnV9",
+        "outputId": "ef2a7cc1-6621-47d7-eeae-d5743dd83e74"
+      },
+      "source": [
+        "s1='python\\'s'\n",
+        "s1"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            },
+            "text/plain": [
+              "\"python's\""
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 37
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "ApWZV_BGkADT",
+        "outputId": "49c79bc4-5380-45a9-dff3-27beb3cbf0b6"
+      },
+      "source": [
+        "\"\\'Shall I compare thee to a summer's day\\' I said\""
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            },
+            "text/plain": [
+              "\"'Shall I compare thee to a summer's day' I said\""
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 46
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Z5kW4dnTlt-l",
+        "outputId": "46bab3e8-f6ac-4965-f5d6-0557687f6318"
+      },
+      "source": [
+        "s=\"\"\"Sometime too hot the eye of heaven shines,\n",
+        "And often is his gold complexion dimm'd;\"\"\"\n",
+        "print(s[6])"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "m\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "vJlk6fErohLE",
+        "outputId": "f005209e-289e-48a5-da88-68c1912a0082"
+      },
+      "source": [
+        "s=\"현재 당신의 호감도는 %d입니다\"%0\n",
+        "s"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            },
+            "text/plain": [
+              "'현재 당신의 호감도는 0입니다'"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 63
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "cqQB5jsto0kS",
+        "outputId": "df34f4ed-01a1-4d09-b1c0-5cf9ae5d69a8"
+      },
+      "source": [
+        "temp=23 #25\n",
+        "s=\"현재 당신의 호감도는 %d입니다\"%temp\n",
+        "s"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            },
+            "text/plain": [
+              "'현재 당신의 호감도는 23입니다'"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 64
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "oxGvT9UAp68e",
+        "outputId": "b1d4b221-af83-497c-934c-6d65435e8784"
+      },
+      "source": [
+        "s=\"안녕하세요 저는 %d학년 %d반 %s입니다.\"%(3,4,'임지수')\n",
+        "s"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            },
+            "text/plain": [
+              "'안녕하세요 저는 3학년 4반 임지수입니다.'"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 74
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Wprf9pM__WSH",
+        "outputId": "a69b1ab9-27a2-4ec4-ff39-f5d693cf09aa"
+      },
+      "source": [
+        "x=100\n",
+        "y=200\n",
+        "sum=x+y\n",
+        "print(\"%d와 %d의 합은 %d입니다\"%(x,y,sum))\n",
+        "print(\"{}와{}의 합은 {}입니다\".format(x,y,sum))"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "100와 200의 합은 300입니다\n",
+            "100와200의 합은 300입니다\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "WCBvA0xLCFJG",
+        "outputId": "549fce8b-8fda-40b0-f2aa-31f09ec3303f"
+      },
+      "source": [
+        "s4=\"나는 너를 사랑하지만 너는 나를 사랑하지 않고 사랑스러운 너는 너를 사랑하지 않고는 사랑할 수 없게 만들지만 사랑은 사랑을 배신하네\"\n",
+        "s4"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            },
+            "text/plain": [
+              "'나는 너를 사랑하지만 너는 나를 사랑하지 않고 사랑스러운 너는 너를 사랑하지 않고는 사랑할 수 없게 만들지만 사랑은 사랑을 배신하네'"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 83
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CujRpOOuCarv",
+        "outputId": "35ac04bb-9648-4167-f112-5307e1750e08"
+      },
+      "source": [
+        "s4.count(\"사랑\")"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "7"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 84
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sof6BYJ3C9Fs",
+        "outputId": "02bce5f9-b085-4e06-9817-ee434592adda"
+      },
+      "source": [
+        "s4.find(\"사랑\")"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "6"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 85
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6lxnoBMnFGrC",
+        "outputId": "64ee8732-f050-4ff0-828d-004ed9ed22d2"
+      },
+      "source": [
+        "num1=35\n",
+        "num2=7\n",
+        "print(num1/num2)\n",
+        "print(num1//num2)\n",
+        "print(num1%num2)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "5.0\n",
+            "5\n",
+            "0\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "aAlxp5VqHsB4",
+        "outputId": "8fe83c75-0e5f-442c-bbc9-f383c5a42e54"
+      },
+      "source": [
+        "str1=\"안녕\"\n",
+        "str2=\"하세요\"\n",
+        "print(str1+str2)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "안녕하세요\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dz9NaWMprbqi",
+        "outputId": "d4f0d45b-8181-4d3b-eff1-48c7f472c884"
+      },
+      "source": [
+        "list1=[1,2,3,['a','b','c']]\n",
+        "list1"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "[1, 2, 3, ['a', 'b', 'c']]"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 1
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Vo5g4QePshsa",
+        "outputId": "02cb6be7-b8df-49c0-f263-c97d80bea01f"
+      },
+      "source": [
+        "temp=list1[3]\n",
+        "temp"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "['a', 'b', 'c']"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 3
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "Q5vxzXAqzNNS",
+        "outputId": "efd1bdcd-ddb5-4786-c6bf-a62ad93119a7"
+      },
+      "source": [
+        "temp[2]"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            },
+            "text/plain": [
+              "'c'"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 4
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "It1wCTIc0eE1",
+        "outputId": "c0596961-d15b-415d-f4fe-bd5fb5ac52d6"
+      },
+      "source": [
+        "list1.append(5)\n",
+        "list1"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "[1, 2, 3, ['a', 'b', 'c'], 5, 5, 5]"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 8
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jxOjwBJ_0slW",
+        "outputId": "831c1a18-4337-4126-fcf5-344b62299198"
+      },
+      "source": [
+        "list1.insert(5,7)\n",
+        "list1"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "[1, 2, 3, ['a', 'b', 'c'], 5, 7, 7, 5, 5]"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 10
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "U4HUFnd81byY",
+        "outputId": "53a8cae8-7e6b-4295-e5a4-52e8f105bed9"
+      },
+      "source": [
+        "del list1[7]\n",
+        "list1"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "[1, 2, 3, ['a', 'b', 'c'], 5, 7, 7]"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 12
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eg2J2ay_1nV3",
+        "outputId": "e501c6a5-b997-4185-c4fe-70f4ddf12b39"
+      },
+      "source": [
+        "del list1[5:6]\n",
+        "list1"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "[1, 2, 3, ['a', 'b', 'c'], 5]"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 14
+        }
+      ]
+    }
+  ]
+}
